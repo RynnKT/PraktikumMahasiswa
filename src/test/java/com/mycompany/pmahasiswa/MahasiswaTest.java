@@ -15,9 +15,9 @@ import static org.junit.jupiter.api.Assertions.*;
  *
  * @author Ridho
  */
-public class PmahasiswaTest {
+public class MahasiswaTest {
     
-    public PmahasiswaTest() {
+    public MahasiswaTest() {
     }
     
     @BeforeAll
@@ -41,13 +41,13 @@ public class PmahasiswaTest {
      */
     @Test
     void testLulus() {
-        Pmahasiswa mhs = new Pmahasiswa("Budi", 75);
+        Mahasiswa mhs = new Mahasiswa("Budi", 75);
         assertTrue(mhs.isLulus());
     }
 
     @Test
     void testTidakLulus() {
-        Pmahasiswa mhs = new Pmahasiswa("Andi", 50);
+        Mahasiswa mhs = new Mahasiswa("Andi", 50);
         assertFalse(mhs.isLulus());
     }
     

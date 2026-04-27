@@ -34,7 +34,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>17</maven.compiler.release>
-        <exec.mainClass>com.mycompany.pmahasiswa.Pmahasiswa</exec.mainClass>
+        <exec.mainClass>com.mycompany.pmahasiswa.Mahasiswa</exec.mainClass>
     </properties>
     <build>
     <plugins>
@@ -60,4 +60,5 @@
 
     </plugins>
 </build>
+    <name>Mahasiswa</name>
 </project>

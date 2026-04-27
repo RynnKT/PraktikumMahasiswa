@@ -8,13 +8,13 @@ package com.mycompany.pmahasiswa;
  *
  * @author Ridho
  */
-public class Pmahasiswa {
+public class Mahasiswa {
 
     private String nama;
     private int nilai;
 
     // constructor
-    public Pmahasiswa(String nama, int nilai) {
+    public Mahasiswa(String nama, int nilai) {
         this.nama = nama;
         this.nilai = nilai;
     }
